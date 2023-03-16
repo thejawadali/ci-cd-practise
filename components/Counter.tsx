@@ -18,7 +18,7 @@ function Counter() {
         </button>
         <button
           data-testid="increment-button"
-          onClick={() => setCounter(counter + 2)}
+          onClick={() => setCounter(counter + 1)}
           className="bg-green-500 w-full rounded-r text-white"
         >
           +
