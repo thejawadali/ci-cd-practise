@@ -20,6 +20,7 @@ exports[`renders homepage unchanged 1`] = `
         <div>
           <span
             class="px-6 py-2 rounded shadow border"
+            data-testid="counter"
           >
             0
           </span>
@@ -28,11 +29,13 @@ exports[`renders homepage unchanged 1`] = `
           >
             <button
               class="bg-red-500 w-full rounded-l text-white"
+              data-testid="decrement-button"
             >
               -
             </button>
             <button
               class="bg-green-500 w-full rounded-r text-white"
+              data-testid="increment-button"
             >
               +
             </button>
